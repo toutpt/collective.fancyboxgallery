@@ -1,0 +1,4 @@
+<layers>
+    <layer name="collective.fancyboxgallery"
+           interface="collective.fancyboxgallery.browser.interfaces.ILayer" />
+</layers>
