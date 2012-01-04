@@ -1,0 +1,29 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" encoding="utf-8"
+  metal:use-macro="here/main_template/macros/master" i18n:domain="nmd">
+  <body>
+   <div metal:fill-slot="content-core">
+    <tal:block define="galleryview nocall:context/@@gallery">
+     <div class="plonetruegallery">
+       <ul class="plonetruegallery"> 
+         <li tal:repeat="photo galleryview/photos">
+           <a class="fancyzoom-gallery" rel="group" 
+            tal:attributes="title string:${photo/title}-${photo/description};
+                       href photo/url;">
+           <img tal:attributes="src photo/thumb_url; alt photo/description" />
+           </a>
+         </li>
+       </ul>
+     </div>
+     <script type="text/javascript" tal:content="view/settings_javascripts"></script>
+     <script type="text/javascript">
+    (function($){
+        $(document).ready(function() {
+            $("a.fancyzoom-gallery").fancybox(fancyboxgallery);
+            var images = $('a.fancyzoom-gallery');
+        });
+    })(jQuery);
+    </script>
+    </tal:block>
+   </div>
+  </body>
+</html>

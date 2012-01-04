@@ -28,6 +28,9 @@ setup(name='collective.fancyboxgallery',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'collective.gallery',
+          'collective.js.fancybox',
+          'collective.configviews',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
