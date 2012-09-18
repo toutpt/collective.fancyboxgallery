@@ -17,10 +17,10 @@ setup(name='collective.fancyboxgallery',
         "Framework :: Plone :: 4.1",
         "Framework :: Plone :: 4.2",
         ],
-      keywords='',
-      author='',
-      author_email='',
-      url='http://svn.plone.org/svn/collective/',
+      keywords='plone fancybox',
+      author='JeanMichel FRANCOIS',
+      author_email='toutpt@gmail.com',
+      url='https://github.com/collective/collective.fancybox',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['collective'],
@@ -34,6 +34,7 @@ setup(name='collective.fancyboxgallery',
           'collective.configviews',
           # -*- Extra requirements: -*-
       ],
+      extras_require = {'test': ['plone.app.testing']},
       entry_points="""
       # -*- Entry points: -*-
       [z3c.autoinclude.plugin]
