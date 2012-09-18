@@ -21,5 +21,12 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
+  <genericsetup:upgradeStep
+    title="Upgrade collective.fancyboxgallery"
+    description="common upgrade step: apply the profile"
+    source="*"
+    destination="1001"
+    handler=".upgrades.common"
+    profile="collective.fancyboxgallery:default"/>
 
 </configure>
