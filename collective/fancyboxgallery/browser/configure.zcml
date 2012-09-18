@@ -39,24 +39,4 @@
     layer=".interfaces.ILayer"
     />
 
-  
-  <!-- EXAMPLE:
-  <browser:viewlet
-      name="collective.someviewlet"
-      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
-      class=".viewlets.MyViewlet"
-      layer=".interfaces.ILayer"
-      permission="zope2.View"
-      />
-  <include package="plone.app.contentmenu" />
-  <browser:page
-      name="myview"
-      menu="plone_displayviews"
-      title="Galleria"
-      class=".myfile.MyView"
-      layer=".interfaces.ILayer"
-      permission="zope2.View"
-      />
-  -->
-
 </configure>

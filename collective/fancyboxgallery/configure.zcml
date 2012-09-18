@@ -9,6 +9,7 @@
 
   <five:registerPackage package="." initialize=".initialize" />
 
+  <include package="plone.app.contentmenu" />
   <include package=".browser" />
 
   <i18n:registerTranslations directory="locales" />
