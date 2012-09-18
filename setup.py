@@ -30,6 +30,7 @@ setup(name='collective.fancyboxgallery',
           'setuptools',
           'collective.gallery',
           'collective.js.fancybox',
+          'collective.js.easing',
           'collective.configviews',
           # -*- Extra requirements: -*-
       ],
