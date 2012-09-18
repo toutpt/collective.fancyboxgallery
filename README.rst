@@ -18,9 +18,27 @@ options:
 Configuration
 =============
 
-This addon expose all fancybox params:
+This addon expose all fancybox params using a view configuration:
 
-* 
+* padding
+* margin
+* opacity
+* modal
+* cyclic
+* scrolling (auto, yes, no)
+* autoscale
+* overlay opacity
+* overlay color
+* title show
+* title position (outside, inside, over)
+* transition in (elastic, fade, none)
+* transition out
+* speed in
+* speed out
+* change speed (fast, slow)
+* easing in http://gsgd.co.uk/sandbox/jquery/easing/
+* easing out
+* show close button
 
 Credits
 =======
