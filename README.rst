@@ -52,8 +52,8 @@ Companies
 * `Contact Makina Corpus <mailto:python@makina-corpus.org>`_
 
 
-Authors
--------
+People
+------
 
 - JeanMichel FRANCOIS aka toutpt <toutpt@gmail.com>
 
