@@ -2,7 +2,7 @@
   metal:use-macro="here/main_template/macros/master" i18n:domain="nmd">
   <body>
    <div metal:fill-slot="content-core">
-    <tal:block define="galleryview nocall:context/@@gallery">
+    <tal:block define="galleryview context/@@gallery">
      <div class="fancyboxgallery" tal:define="cover python:galleryview.get_photo()">
        <img id="fancyboxgallery" tal:attributes="src cover/url; alt cover/description" />
        <ul id="fancyboxgallery-photos">
